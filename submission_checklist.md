@@ -1,7 +1,5 @@
 # AIRMAN Skynet Cloud Ops Intern Assessment — Submission Checklist
 
-> Candidate: Fill this out and include it in your repository as `submission_checklist.md`
-
 ---
 
 # 1) Candidate & Submission Info
@@ -35,10 +33,7 @@
 
 ## Level 2 (Optional)
 
-* [ ] Option A — Automated Cost Guardrails
 * [x] Option B — CI/CD for Safe Cloud Deployments
-* [ ] Option C — SLOs + Error Budget + Ops Dashboard
-* [ ] Option D — Multi-Environment Blueprint with Cost Governance
 
 ---
 
@@ -414,3 +409,4 @@ This project demonstrates a small-scale cloud deployment of an operational audit
 * CI pipeline for safe builds and infrastructure validation
 
 The implementation aligns with the AIRMAN pilot-scale workload assumptions and prioritizes simplicity, cost control, and operational clarity.
+
