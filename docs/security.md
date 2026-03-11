@@ -240,6 +240,34 @@ These features may be added in a production environment.
 
 ---
 
+# CI/CD Secrets Management
+
+To securely authenticate the CI/CD pipeline with AWS, sensitive credentials are stored using **GitHub Actions Secrets** rather than being committed to the repository.
+
+The following secrets are configured in the GitHub repository under **Settings → Secrets and variables → Actions**:
+
+* `AWS_ACCESS_KEY_ID`
+* `AWS_SECRET_ACCESS_KEY`
+* `AWS_REGION`
+* `AWS_ACCOUNT_ID`
+
+These secrets are used by the GitHub Actions workflow to authenticate with AWS and perform operations such as:
+
+* Logging into **Amazon ECR**
+* Pushing Docker images to the container registry
+* Running Terraform validation and infrastructure checks
+
+### Security Practices Followed
+
+* Secrets are **never hardcoded in the repository**.
+* Sensitive values are accessed only through the **GitHub Actions runtime environment**.
+* Access to these secrets is restricted to the repository’s CI workflow.
+* Local development uses environment variables or AWS CLI credentials instead of committing secrets.
+
+This approach ensures that **cloud credentials remain protected while still enabling automated CI/CD workflows**.
+
+----
+
 # Summary
 
 The system follows several baseline security practices:
