@@ -284,7 +284,6 @@ Features:
 Metrics monitored:
 
 * CPU utilization
-* ALB request volume
 * 5XX error responses
 * Health check signals
 
