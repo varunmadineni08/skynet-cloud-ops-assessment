@@ -128,7 +128,7 @@ repo
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPO.git](https://github.com/varunmadineni08/skynet-cloud-ops-assessment.git)
 cd YOUR_REPO
 ```
 
