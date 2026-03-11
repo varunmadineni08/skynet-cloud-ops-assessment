@@ -10,7 +10,6 @@
 * **Assessment Level Submitted:** Level 1 + Level 2
 * **Level 2 Option Chosen (if any):** Option B — CI/CD for Safe Cloud Deployments
 * **GitHub Repo Link:** https://github.com/varunmadineni08/skynet-cloud-ops-assessment.git
-* **Demo Video Link:** https://drive.google.com/file/d/1tV8rWFkGZjLZ1eBkksp6FmoRDsnN6Z5A/view?usp=drive_link
 * **Submission Date (UTC):** 2026-03-11
 
 ---
@@ -409,4 +408,5 @@ This project demonstrates a small-scale cloud deployment of an operational audit
 * CI pipeline for safe builds and infrastructure validation
 
 The implementation aligns with the AIRMAN pilot-scale workload assumptions and prioritizes simplicity, cost control, and operational clarity.
+
 
